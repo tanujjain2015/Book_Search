@@ -1,3 +1,9 @@
+import React from 'react';
+//import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+
+
+
 // route to get logged in user's info (needs the token)
 export const getMe = (token) => {
   return fetch('/api/users/me', {
